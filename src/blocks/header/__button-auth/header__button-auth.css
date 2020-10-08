@@ -1,0 +1,22 @@
+.header__button-auth {
+    display: none;
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.22;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    padding: 0;
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.header__button-auth:hover {
+    opacity: 0.8;
+}
+
+.header__button-auth:focus {
+    outline: none;
+}

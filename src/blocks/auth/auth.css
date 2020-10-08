@@ -1,0 +1,17 @@
+@import url('./__form/auth__form.css');
+@import url('./__title/auth__title.css');
+@import url('./__form-info/auth__form-info.css');
+@import url('./__form-input/auth__form-input.css');
+@import url('./__paragraph/auth__paragraph.css');
+@import url('./__button/auth__button.css');
+@import url('./__next-step/auth__next-step.css');
+@import url('./__link/auth__link.css');
+
+.auth {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

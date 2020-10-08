@@ -1,0 +1,19 @@
+.card__like {
+    border: none;
+    min-width: 22px;
+    min-height: 19px;
+    background: none;
+    background-image: url('../../../images/gallery/like.svg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding: 0;
+}
+
+.card__like:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.card__like:focus {
+    outline: none;
+}

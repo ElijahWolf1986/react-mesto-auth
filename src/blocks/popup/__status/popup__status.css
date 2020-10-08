@@ -1,0 +1,8 @@
+.popup__status {
+    height: 270px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}

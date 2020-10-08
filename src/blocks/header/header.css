@@ -1,0 +1,16 @@
+@import url('./__logo/header__logo.css');
+@import url('./__login/header__login.css');
+@import url('./__auth-paragraph/header__auth-paragraph.css');
+@import url('./__user-info/header__user-info.css');
+@import url('./__button-auth/header__button-auth.css');
+@import url('./__button-auth_state_opened/header__button-auth_state_opened.css');
+
+.header {
+    max-width: 882px;
+    border-bottom: 1px solid rgb(84, 84, 84, 0.7);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
