@@ -94,15 +94,11 @@ function App() {
       .register(email, password)
       .then((data) => {
         if (data) {
-          setLoggedIn(true);
-          setEmail(email);
-          history.push("/");
+          history.push("/signin");
           setInfoTooltipPopupOpen(true);
           setImg(successImg);
           setImgAlt("У - успех!");
           setTitle("Вы успешно зарегистрировались!");
-
-          setEmail(data.email);
         } else {
           setInfoTooltipPopupOpen(true);
           throw new Error("Увы, зарегестрироваться не получилось..");
